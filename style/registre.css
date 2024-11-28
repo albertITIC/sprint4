@@ -1,0 +1,78 @@
+body{
+    margin: auto;
+    background-color: #E3EFFF;
+    margin: 20px;
+}
+
+/* Titol Attendo */
+.titol{
+    color: #77A3E5;
+    font-size: 30px;
+}
+
+/* Iniciar sessió títol*/
+.titol-registre{
+    color: #77A3E5;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+/* Capça formulari */
+.formulari {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center; 
+    background-color: white;
+    gap: 15px; 
+    padding: 15px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 60%; 
+    margin: auto;
+}
+
+/* Configuració del botó */
+.formulari button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Botó hover (per quan es passa per sobre del ratolí) */
+.formulari button:hover{
+    background-color: rgba(173, 216, 230, 0.596);
+    border: none;
+}
+
+/* Camp 1 del formulari */
+.camp {
+    gap: 8px;
+}
+
+/* Inputs */
+input{
+    display: flex;
+    width: 100%;
+}
+
+/* Sección de enlaces adicionales */
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.info a {
+    color: #77A3E5; 
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+.info a:hover {
+    text-decoration: underline; 
+    color: #0056b3;
+}

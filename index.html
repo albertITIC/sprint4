@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+    <link rel="stylesheet" href="/style/registre.css">
+</head>
+<body>
+
+    <!-- Títol web -->
+    <section class="titol">
+        <h1><strong>Attendo</strong></h1>
+    </section>
+
+    <!-- Formulari -->
+    <section class="formulari">
+        <section class="titol-registre">Iniciar Sessió</section>
+        <!-- Secció de registre -->
+        <section class="camp 1">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Escriu el teu correu">
+        </section>
+
+        <section class="camp 2">
+            <label for="password">Contrassenya</label>
+            <input type="password" id="password" placeholder="Escriu la teva contrassenya">
+        </section>  
+
+        <!-- Botó per registrar-se -->
+        <button>Registrar-se</button>
+
+        <section class="info">
+            <!-- Fer funcions onclick() per rederigir a un altre html -->
+            <a href="" id="contrasenyaOblidada">T'has oblidat de la contrasenya?</a>
+            <a href="" id="crearCompte">No tens un compte?</a>
+        </section>
+    </section>
+
+    <!-- Script amb les funcions necessàries. -->
+    <script src="js/registre.js"></script>
+
+
+</body>
+</html>
