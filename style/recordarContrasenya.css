@@ -11,7 +11,7 @@ body{
 }
 
 /* Crear compte. Títol */
-.titol-crear-compte{
+.titol-crear-contrasenya{
     color: #77A3E5;
     font-size: 20px;
     display: flex;
@@ -19,7 +19,7 @@ body{
 }
 
 /* Caixa de crear compte */
-.crearCompte{
+.recuperarContrasenya{
     display: flex;
     flex-direction: column;     
     justify-content: center; 
