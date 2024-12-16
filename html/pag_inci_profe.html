@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina d'Inici - Professorat</title>
+    <link rel="stylesheet" href="/style/pagina_inici_profe.css">
+</head>
+<body>
+    <!-- Títol web -->
+    <section class="titol">
+        <h1><strong>Attendo</strong></h1>
+    </section>
+
+    <!-- Títol de benvinguda -->
+    <section>
+        <h2>Benvingut de nou!</h2>
+    </section>     
+
+    <!-- Taules d'usuaris -->
+    <section class="usuaris">
+        <h3>Llista d'usuaris</h3>
+        <table>
+            <thead>
+                <!-- Simulació dels nostres camps de la BBDD -->
+                 <!-- Dividits per columnes (tr) i files (th) -->
+                <tr>
+                    <th>Id</th>
+                    <th>Nom</th>
+                    <th>Cognom</th>
+                    <th>Correu Electrònic</th>
+                    <th>Classe</th>
+                    <th>Estat</th>
+                    <th>Nuid tarjeta</th>
+                    <!-- Camp afegit per editar l'alumne (no funciona)-->
+                    <th>Editar</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Albert</td>
+                    <td>Penadés</td>
+                    <td>albert@example.com</td>
+                    <td>DAW 2A</td>
+                    <td>Absent</td>
+                    <td>d3:14:92:18</td>
+                    <!-- Seràn dos buttons per "simular" l'edició i/o eliminació de l'usuari -->
+                    <td><button class="btn-editar">✏️</button> 
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Karolayn</td>
+                    <td>Muñoz</td>
+                    <td>karolayn@example.com</td>
+                    <td>DAM 2A</td>
+                    <td>Present</td>
+                    <td>e3:9c:8f:18</td>
+                    <!-- Seràn dos buttons per "simular" l'edició i/o eliminació de l'usuari -->
+                    <td><button class="btn-editar">✏️</button> 
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Zhijun</td>
+                    <td>Chen</td>
+                    <td>zhijun@example.com</td>
+                    <td>ASIX 2B</td>
+                    <td>Retard</td>
+                    <td>63:85:d5:1d</td>
+                    <!-- Seràn dos buttons per "simular" l'edició i/o eliminació de l'usuari -->
+                    <td><button class="btn-editar">✏️</button> 
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Feng</td>
+                    <td>Xia</td>
+                    <td>feng@example.com</td>
+                    <td>ASIX 2B</td>
+                    <td>Abscència justificada</td>
+                    <td>93:78:f3:e</td>
+                    <!-- Seràn dos buttons per "simular" l'edició i/o eliminació de l'usuari -->
+                    <td><button class="btn-editar">✏️</button> 
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

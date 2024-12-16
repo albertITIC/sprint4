@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.titol {
+    text-align: center;
+    background-color: #77A3E5;
+    color: white;
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+section h2 {
+    text-align: start;
+    padding-left: 5%;
+    margin-top: 20px;
+}
+
+/* Taula que conté tots els usuaris */
+.usuaris {
+    margin: 20px auto;
+    width: 80%;
+    background: whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Propietats de la taula */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Propietats de les columnes i files */
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Propietat de la primera fila de la taula*/
+th {
+    background-color: #77A3E5;
+    color: white;
+}
+
+/* Buttons de l'última columna*/
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.btn-editar {
+    background-color: green;
+    color: white;
+}
+
+button.btn-editar:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+button.btn-eliminar {
+    background-color: #f44336;
+    color: white;
+}
+
+button.btn-eliminar:hover{
+    background-color: darkred;
+    color: white;
+}
