@@ -1,23 +1,32 @@
 // OBJ
 const contraCompteObj = document.getElementById("contrasenyaOblidada"); 
 const crearCompteObj = document.getElementById("crearCompte");
+const retornarIniciarSessioObj = document.getElementById("tornarIniciarSessio")
 
 //VARIABLES
 let win
 
-
-
 // EVENTS 
+// Obrir l'html obrir contrasenya
 contraCompteObj.addEventListener("click", obrirContrasenya); 
+
+// Obrir l'html obrir compte nou (registre)
 crearCompteObj.addEventListener("click", obrirCompteNou); 
+
+//obrir l'html de retornar al inici sessió
+retornarIniciarSessioObj.addEventListener("click", retornarIniciarSessió)
 
 // FUNCIONS 
 function obrirContrasenya() {
-    win = window.open("./html/contrasenya.html"); 
+    win = window.open("./html/contrasenya.html"); // ruta
 }
 
 function obrirCompteNou() {
-    win = window.open("./html/crearCompte.html");
+    win = window.open("./html/crearCompte.html"); // ruta
+}
+
+function retornarIniciarSessió(){
+    win = window.open("./index.html")
 }
 
 function crearRegistre(){
@@ -45,6 +54,11 @@ function crearRegistre(){
     // 3. Verifico la gmail
     if (!gmail || !gmail.includes("@")) {
         alert(!gmail ? "Introdueix un correu vàlid" : "El correu no és vàlid");
+    }
+    
+    // 3. Verifico la contrasenya
+    if (!contrasenya) {
+        alert("La contrasenya no pot estar vuida");
     }
 
 }
