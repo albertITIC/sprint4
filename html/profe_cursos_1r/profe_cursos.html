@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina d'Inici - Professorat</title>
+    <link rel="stylesheet" href="/style/pagina_cursos1r_profe.css">
+</head>
+<body>
+    <!-- Títol web -->
+    <section class="titol">
+        <h1><strong>Attendo</strong></h1>
+        <!-- "Subtitol" -->
+        <strong><p>Professorat</p></strong>
+        <p>DAW 1A</p>
+    </section>
+
+    <!-- Títol de benvinguda -->
+    <section>
+        <h2>Benvingut de nou!</h2>
+    </section>     
+
+    <!-- Taules d'usuaris -->
+    <section class="usuaris">
+        <h3>Llista d'usuaris</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nom</th>
+                    <th>Cognom</th>
+                    <th>Correu Electrònic</th>
+                    <th>Classe</th>
+                    <th>Estat</th>
+                    <th>Nuid tarjeta</th>
+                    <th>Eliminar alumne</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Albert</td>
+                    <td>Penadés</td>
+                    <td>albert@example.com</td>
+                    <td>DAW 1A</td>
+                    <!-- Desplegable per a l'estat -->
+                    <td>
+                        <select name="estat1">
+                            <option value="present">Present</option>
+                            <option value="retard">Retard</option>
+                            <option value="retard_justificat">Retard Justificat</option>
+                            <option value="absent">Absent</option>
+                        </select>
+                    </td>
+                    <td>d3:14:92:18</td>
+                    <td>
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Karolayn</td>
+                    <td>Muñoz</td>
+                    <td>karolayn@example.com</td>
+                    <td>DAW 1A</td>
+                    <!-- Desplegable per a l'estat -->
+                    <td>
+                        <select name="estat2">
+                            <option value="present">Present</option>
+                            <option value="retard">Retard</option>
+                            <option value="retard_justificat">Retard Justificat</option>
+                            <option value="absent">Absent</option>
+                        </select>
+                    </td>
+                    <td>e3:9c:8f:18</td>
+                    <td>
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Zhijun</td>
+                    <td>Chen</td>
+                    <td>zhijun@example.com</td>
+                    <td>DAW 1A</td>
+                    <!-- Desplegable per a l'estat -->
+                    <td>
+                        <select name="estat3">
+                            <option value="present">Present</option>
+                            <option value="retard">Retard</option>
+                            <option value="retard_justificat">Retard Justificat</option>
+                            <option value="absent">Absent</option>
+                        </select>
+                    </td>
+                    <td>63:85:d5:1d</td>
+                    <td>
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Feng</td>
+                    <td>Xia</td>
+                    <td>feng@example.com</td>
+                    <td>DAW 1A</td>
+                    <!-- Desplegable per a l'estat -->
+                    <td>
+                        <select name="estat4">
+                            <option value="present">Present</option>
+                            <option value="retard">Retard</option>
+                            <option value="retard_justificat">Retard Justificat</option>
+                            <option value="absent">Absent</option>
+                        </select>
+                    </td>
+                    <td>93:78:f3:e</td>
+                    <td>
+                        <button class="btn-eliminar">🗑️</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>  
+
+    <!-- Secció  "Tancar Sessió" i "Volver a Cursos" -->
+    <section class="button-tornar-inici">
+        <button id="retorna-inici">Tancar Sessió</button>
+        <button id="volver-cursos">Tornar als Cursos</button>
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

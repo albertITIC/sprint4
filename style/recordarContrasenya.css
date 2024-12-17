@@ -36,3 +36,8 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.botons-finals{
+    display: flex;
+    justify-content: start;
+}

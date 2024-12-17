@@ -1,0 +1,71 @@
+body{
+    background-color: #e3e6ff;
+}
+/* Estilos básicos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #77A3E5;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+caption {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo base para los botones */
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Verde principal */
+    border: none;
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer; /* Cambia el cursor a mano */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Botón específico: Torna */
+#tornar {
+    background-color: #3498db; /* Azul */
+}
+
+#tornar:hover {
+    background-color: #2980b9; /* Azul más oscuro */
+}
+
+/* Botón específico: Tancar Sessió */
+#tancar-sessio {
+    background-color: #e74c3c; /* Rojo */
+}
+
+#tancar-sessio:hover {
+    background-color: #c0392b; /* Rojo más oscuro */
+}

@@ -17,6 +17,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+//Botó que obrirà index.html
+const btnInici = document.getElementById("retorna-inici")
+
+//Assigno el click
+btnInici.addEventListener("click", tornarIniciarSessio)
+
+//funció que ens redirigirà a la web
+function tornarIniciarSessio(){
+    win = window.open("../index.html")
+}
+
 // Apartat alumne
 document.addEventListener("DOMContentLoaded", () => {
     // Acciones para botones de módulos

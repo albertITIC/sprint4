@@ -62,3 +62,23 @@ function crearRegistre(){
     }
 
 }
+
+// Variable per guardar el button
+btnInici = document.getElementById("retorna-inici")
+
+// Indiquem que quan faci click, executi la funció d'obrir el fitxer index.html
+btnInici.addEventListener("click", tornarIniciarSessio)
+
+//Creo funció per tornar al inici
+function tornarIniciarSessio(){
+    win = window.open("../index.html")
+}
+
+// Iniciar sessió
+const buttonLog = document.getElementById("log");
+
+buttonLog.addEventListener("click", iniciarAlumn)
+
+function iniciarAlumn(){
+    window.open("./html/pag_inici_alumne.html")
+}
